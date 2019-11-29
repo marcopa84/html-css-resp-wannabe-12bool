@@ -2,9 +2,9 @@
   margin: 20px 0;
 }
 
-.img_height{
+/* .img_height{
   height: 200px;
-}
+} */
 .backgroud_color{
   background-color: lightgrey;
 }
@@ -38,7 +38,9 @@
 }
 
 @media screen and (min-width: 992px){
-
+  .img_height{
+    height: 200px;
+  }
 }
 
 @media screen and (min-width: 768px)
@@ -46,10 +48,16 @@ and (max-width: 992px){
   body {
     color: red;
   }
+  .img_height{
+    height: 150px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   body {
     text-transform: uppercase;
+  }
+  .img_height{
+    height: 75px;
   }
 }
